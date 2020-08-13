@@ -27,4 +27,4 @@ Errors on console: <br />
 > @ polyfills-es2015.3f36a01….js:2next @ main-es2015.acfdaad….js:2(anonymous function) 
 > ...
 
-It's a very silly solution but it does, feel free to improve.
+It's a very silly solution but it works for now, feel free to use and improve.
