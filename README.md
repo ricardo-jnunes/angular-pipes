@@ -12,7 +12,9 @@ Have the same usage of https://angular.io/api/common/DatePipe
 > {{ dateObj | customDate:'mm:ss' }}       // output is '43:11' <br />
 
 The implementation was necessary due to: <br />
+The page does not render correctly on iOS. <br />
 https://github.com/angular/angular/issues/20443
+
 
 Errors on console: <br />
 > main-es2015.acfdaad….js:2 <br />
@@ -24,3 +26,5 @@ Errors on console: <br />
 > @ main-es2015.acfdaad….js:2run <br />
 > @ polyfills-es2015.3f36a01….js:2next @ main-es2015.acfdaad….js:2(anonymous function) 
 > ...
+
+It's a very silly solution but it does, feel free to improve.
